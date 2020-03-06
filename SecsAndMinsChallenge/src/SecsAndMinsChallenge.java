@@ -30,7 +30,7 @@ public class SecsAndMinsChallenge {
         return hoursString +"  "+minutesString + " " + seconds +"";
     }
 
-
+//overload method
     private static String getDurationString(long seconds){
 
         if(seconds<0){
