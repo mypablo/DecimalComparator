@@ -17,4 +17,14 @@ public class AreaCalculator {
         return x*y;
     }
 
+    public static void main(String[] args){
+
+        area(5.0);
+        area(5.0,4.0);
+        //return -1.0
+        area(-1);
+        area(-1,4.0);
+
+    }
+
 }
