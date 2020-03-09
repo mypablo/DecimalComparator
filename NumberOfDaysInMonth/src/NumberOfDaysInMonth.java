@@ -1,7 +1,7 @@
 public class NumberOfDaysInMonth {
 
     public static boolean isLeapYear(int year){
-
+//if a year is leap
         if(year>=1 && year<=9999){
             boolean syear = (year % 4 ==0 && year % 100 !=0) || (year % 400 ==0);
             return syear;
@@ -21,7 +21,7 @@ public class NumberOfDaysInMonth {
 
 
     int mmonth;
-
+//switch case
         switch (month){
             case 1:
                 System.out.println("31");
