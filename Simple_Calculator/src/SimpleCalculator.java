@@ -1,8 +1,12 @@
+//Simple Calculator with methods!!!
+
+
 public class SimpleCalculator {
 
     private double firstNumber;
     private double secondNumber;
 
+    //get numbers
     public double getFirstNumber(){
         return this.firstNumber;
 
@@ -11,6 +15,7 @@ public class SimpleCalculator {
         return this.secondNumber;
 
     }
+    //set numbers
 
     public void setFirstNumber(double firstNumber){
         this.firstNumber = firstNumber;
@@ -22,6 +27,8 @@ public class SimpleCalculator {
         this.secondNumber = secondNumber;
     }
 
+    
+    //calculate numbers
     public double getAdditionResult(){
 
       return getFirstNumber() + getSecondNumber();
